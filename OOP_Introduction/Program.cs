@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System;
 
 namespace OOP_Introduction
 {
@@ -36,6 +37,7 @@ namespace OOP_Introduction
       // interfaces
       GraduateStudent Grad = new GraduateStudent();
       Debug.WriteLine(Grad.Study());
+      Console.ReadKey();  
     }
 
     static int ModifyPrimitiveArgument(int x)
