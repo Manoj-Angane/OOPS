@@ -4,6 +4,7 @@ namespace OOP_Introduction
 {
   class Person
   {
+
     public string firstName;
     public string lastName;
 
