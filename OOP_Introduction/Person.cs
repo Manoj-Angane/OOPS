@@ -18,7 +18,7 @@ namespace OOP_Introduction
     ///   in a printable version
     /// </summary>
     /// <returns>Person's full name</returns>
-    string getName()
+    public string getName()
     {
       return firstName + " " + lastName;
     }
